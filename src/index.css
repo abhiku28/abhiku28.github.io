@@ -419,6 +419,17 @@ main {
   text-transform: uppercase;
 }
 
+.case-card__metric {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+  font-size: 0.95rem;
+}
+
 .case-card h3,
 .capability-card h3 {
   margin: 0 0 14px;

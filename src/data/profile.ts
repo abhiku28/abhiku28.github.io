@@ -23,7 +23,7 @@ export const profile = {
       label: "Annual revenue leakage visibility and protection"
     },
     {
-      metric: "2–3 days → <4 hours",
+      metric: "2–3 weeks → <4 hours",
       label: "Contract processing time reduced through AI-led automation"
     },
     {
@@ -56,6 +56,7 @@ export const profile = {
     {
       title: "Revenue Assurance Data Platform",
       theme: "Data Platform | Revenue Protection | Snowflake",
+      impactMetric: "NZD 3M–5M",
       context:
         "Revenue leakage across billing, payments, partner and third-party integration flows required faster visibility and stronger reconciliation.",
       architecture:
@@ -68,6 +69,7 @@ export const profile = {
     {
       title: "AI-Driven Sales-to-Contract Automation",
       theme: "AI Automation | Semantic Kernel | Workflow Orchestration",
+      impactMetric: "2–3 weeks → <4 hours",
       context:
         "Manual contract, approval and provisioning processes were spread across disconnected enterprise systems.",
       architecture:
@@ -75,23 +77,25 @@ export const profile = {
       scale:
         "Supported thousands of order and contract transactions per month across multiple enterprise systems.",
       outcome:
-        "Reduced processing time from multiple days to under a few hours and improved consistency across operational handoffs."
+        "Reduced processing time from 2–3 weeks to under 4 hours and improved consistency across operational handoffs."
     },
     {
       title: "Fraud & Bad Debt Detection Platform",
       theme: "AI/ML | Risk Decisioning | Data Engineering",
+      impactMetric: "NZD 1M+",
       context:
         "Delayed identification of high-risk customers increased financial exposure and operational inefficiency.",
       architecture:
-        "Designed data integration across customer, billing, usage and transaction datasets to enable AI/ML-driven risk insights.",
+        "Designed data integration across customer, billing, usage and transaction datasets with graph-based entity relationship analysis to enable AI/ML-driven risk insights.",
       scale:
-        "Processed large customer datasets and transaction histories across batch and near real-time pipelines.",
+        "Processed large customer datasets and transaction histories across batch and near real-time pipelines with sub-5 minute detection cycles.",
       outcome:
-        "Supported near real-time fraud and bad debt detection and improved decision-making for risk and collections teams."
+        "Enabled sub-5 minute fraud and bad debt detection and improved decision-making for risk and collections teams."
     },
     {
       title: "CMS Collection Management System Cloud Migration",
       theme: "Cloud Migration | Credit ML Model | Real-Time Features",
+      impactMetric: "NZD 1M saved",
       context:
         "A legacy Collection Management System required migration to a cloud platform, with credit decisions managed using a Credit ML Model.",
       architecture:
@@ -143,7 +147,7 @@ export const profile = {
       highlights: [
         "Leading AI-driven automation across finance, legal, supply chain and customer operations",
         "Architected Sales-to-Contract automation using Semantic Kernel",
-        "Reduced contract processing from 2–3 days to under 4 hours",
+        "Reduced contract processing from 2–3 weeks to under 4 hours",
         "Automated 60%+ of manual provisioning steps"
       ]
     },

@@ -17,6 +17,9 @@ export function CaseStudies() {
             <div className="case-card__body">
               <p className="case-card__theme">{item.theme}</p>
               <h3>{item.title}</h3>
+              {item.impactMetric && (
+                <p className="case-card__metric"><strong>{item.impactMetric}</strong></p>
+              )}
               <p><strong>Context:</strong> {item.context}</p>
               <p><strong>Architecture:</strong> {item.architecture}</p>
               <p><strong>Scale:</strong> {item.scale}</p>
